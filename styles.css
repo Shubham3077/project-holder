@@ -31,6 +31,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: white;
 }
 .primary-link{
     background-color: var(--primary-color); /*decleration of variable */
@@ -108,6 +109,27 @@ hr{
     text-align: center;
 }
 
+.section-text{
+    text-align: centre;
+}
+
 .light-grey {
     background-color: var(--light-grey);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.footer-heading{
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }

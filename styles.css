@@ -4,6 +4,7 @@
 :root{
     --primary-color: #F43F5E;
     --grey-color: #52525b;
+    --light-grey: #d1d5db;
 }
 
 body{
@@ -92,8 +93,21 @@ hr{
     font-size: 2rem;
     color: var(--grey-color);
     padding: 1rem;
-    margin: auto;
+    
 }
 .hero-heading .hero-text{
     color: var(--primary-color);
+}
+
+
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h3 {
+    text-align: center;
+}
+
+.light-grey {
+    background-color: var(--light-grey);
 }

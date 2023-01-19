@@ -3,6 +3,7 @@
 /* CSS variables */
 :root{
     --primary-color: #F43F5E;
+    --grey-color: #52525b;
 }
 
 body{
@@ -76,4 +77,23 @@ hr{
 
 .active-link{
     font-weight: bold;
+}
+
+/* header */
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--grey-color);
+    padding: 1rem;
+    margin: auto;
+}
+.hero-heading .hero-text{
+    color: var(--primary-color);
 }

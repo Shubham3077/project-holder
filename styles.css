@@ -40,3 +40,13 @@ hr{
     border: 1px var(--primary-color) solid;
     border-radius: 0.5rem;
 }
+
+/* lists */
+.no-bullet-list{
+    list-style-type: none;
+}
+
+.inline-list{
+    display: inline;
+    padding: 0rem 0.5rem;
+}

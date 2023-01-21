@@ -1,127 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Project Holder</title>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-		<h1>Shubham's Project Holder.</h1>
-
-		<p>
-			I am making a Library for my future projects
-			so they are inside this.
-		</p>
-
-		<hr />
-
-		<h2>@typography</h2>
-		<h1>This is a biggest heading.</h1>
-		<h2>2nd big heading.</h2>
-		<p>Normal text.</p>
-		<small>Relatively smaller text.</small>
-
-		<hr />
-
-		<h2>@container</h2>
-		<h3>fluid container</h3>
-		<div class="container">
-			this will go till the end of the page.
-		</div>
-
-		<h3>centre container</h3>
-		<div class="centre-container">
-			this centered container,this will go till
-			the specified width.
-		</div>
-
-		<hr />
-
-		<h2>@links</h2>
-		<a href="/" class="link primary-link">primary link</a>
-		<a href="/" class="link secondary-link">secondary link</a>
-
-		<hr />
-
-		<h2>@lists</h2>
-
-		<h3>unordered lists</h3>
-		<ul class="no-bullet-list">
-			<li>item 1</li>
-			<li>item 2</li>
-			<li>item 3</li>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Project Holder</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav class="navigation container ">
+		<div class="brand-name">iAmShubham</div>
+		<ul class="no-bullet-list nav-pills">
+			<li class="inline-list">
+				<a class="link active-link" href="/">Home</a>
+			</li>
+			<li class="inline-list">
+				<a class="link" href="/">Projects</a>
+			</li>
+			<li class="inline-list">
+				<a class="link" href="/">Blogs</a>
+			</li>
 		</ul>
-		<h3>ordered inline list</h3>
-		
-		<ol class="no-bullet-list">
-			<li class="inline-list">item 1</li>
-			<li class="inline-list">item 2</li>
-			<li class="inline-list">item 3</li>
-		</ol>
-		<h3>reversed ordered list</h3>
-		<ol reversed>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ol>
+	</nav>
 
-		<hr />
+	<header class="hero">
+		<img class="hero-img" src="images/main-image.svg">
+		<h2 class="hero-heading">I am a self taught <span class="hero-text">web developer.</span></h2>
+	</header>
 
-		<h3>@nav</h3>
-		<nav class="navigation container ">
-			<div class="brand-name">iAmShubham</div>
-			<ul class="no-bullet-list nav-pills">
-				<li class="inline-list">
-					<a class="link active-link" href="/">Home</a>
-				</li>
-				<li class="inline-list">
-					<a class="link" href="/">Projects</a>
-				</li>
-				<li class="inline-list">
-					<a class="link" href="/">Blogs</a>
-				</li>
-			</ul>
-		</nav>
+	<section class="section container light-grey">
+		<h3>Technologies</h3>
+		<div class="section-text centre-container">I am familiar with HTML, CSS, Tailwind CSS, Bootstrap, Vanilla Javascript, NodeJS, ReactJS, Git, NextJS and Web Hosting. </div>
+	</section>
 
-        <hr>
+	<section class="section container r">
+		<h3>Projects</h3>
+		<div class="section-text centre-container">Here are showchase some of my work & projects which I've hosted online also.</div>
+		<a href="/" class="link primary-link">Browse Projects</a>
+	</section>
 
-		<h1>@header</h1>
-        <header class="hero">
-			<img class="hero-img" src="images/main-image.svg">
-            <h2 class="hero-heading">I am a <span class="hero-text">web developer.</span></h2>
-        </header>
+	<section class="section container light-grey">
+		<h3>Blogs</h3>
+		<div class="section-text centre-container">I am working on some technical and non technical stuff, And i would love to share them too.</div>
+		<a href="/" class="link secondary-link">secondary link</a>
+	</section>
 
-		<h2>@section</h2>
-		<section class="section container r">
-			<h3>white section</h3>
-			<div class="section-text centre-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rem maiores officiis totam deleniti, inventore voluptates itaque exercitationem, vero veniam suscipit delectus quos. Et doloremque quaerat aut dolorum iste pariatur!</div>
-		</section>
+	<section class="section container ">
+		<h3>Skills</h3>
+		<div class="section-text centre-container">I really love making music. I can play guitar and piano. Also I am very fond of any kind of art form.</div>
+		<a href="/" class="link primary-link">Tap to listen</a>
+	</section>
 
-		<section class="section light-grey">
-		<h3>grey section</h3>
-		<div class="section-text container centre-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rem maiores officiis totam deleniti, inventore voluptates itaque exercitationem, vero veniam suscipit delectus quos. Et doloremque quaerat aut dolorum iste pariatur!</div>
-		</section>
-
-		<hr>
-
-		<h2>@footer</h2>
-		<footer class="footer ">
-			<div class="footer-heading ">small heading for footer</div>
-			<ul class="no-bullet-list ">
-				<li class="inline-list"><a class=  "link" href="/">section one</a></li>
-				<li class="inline-list"><a class=  "link" href="/">section two</a></li>
-				<li class="inline-list"><a class=  "link" href="/">section three</a></li>
-			</ul>	
-		</footer>
-		
-	</body>
+	<footer class="footer ">
+		<div class="footer-heading ">Here are my socials</div>
+		<ul class="no-bullet-list ">
+			<li class="inline-list"><a class=  "link" href="/">Github</a></li>
+			<li class="inline-list"><a class=  "link" href="/">Linkedin</a></li>
+			<li class="inline-list"><a class=  "link" href="/">Instagram</a></li>
+		</ul>	
+	</footer>
+</body>
 </html>
- 

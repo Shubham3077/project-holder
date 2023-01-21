@@ -66,6 +66,7 @@ hr{
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    
 }
 .brand-name{
     font-weight: bold;
@@ -131,6 +132,8 @@ hr{
     color: white;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    
+
 }
 .footer-heading{
     text-align: center;
